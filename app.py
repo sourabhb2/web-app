@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "<h1>Hello from Flask on Azure! 🌐🔥</h1>"
+    return "<h1>Hello from Flask on Azure!..... 🌐🔥</h1>"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))
